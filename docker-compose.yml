@@ -12,11 +12,11 @@ services:
       replicas: 3
     image: inthiyazpasha/paytmmsdth:latest
     ports:
-      - "8002:80"
+      - "8003:80"
 
   movies:
     deploy:
       replicas: 3
     image: inthiyazpasha/paytmmsmovies:latest
     ports:
-      - "8003:80"
+      - "8004:80"
