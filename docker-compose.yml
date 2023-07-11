@@ -4,14 +4,12 @@ services:
     image: inthiyazpasha/paytmmstrain:latest
     ports:
       - "80:80"
-    replicas: 3
   dth:
     image: inthiyazpasha/paytmmsdth:latest
     ports:
       - "81:80"
-    replicas: 3
   movies:
     image: inthiyazpasha/paytmmsmovies:latest
     ports:
       - "82:80"
-    replicas: 3
+
