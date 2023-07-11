@@ -5,18 +5,18 @@ services:
       replicas: 3
     image: inthiyazpasha/paytmmstrain:latest
     ports:
-      - "81:80"
+      - "8000:80"
 
   dth:
     deploy:
       replicas: 3
     image: inthiyazpasha/paytmmsdth:latest
     ports:
-      - "82:80"
+      - "8001:80"
 
   movies:
     deploy:
       replicas: 3
     image: inthiyazpasha/paytmmsmovies:latest
     ports:
-      - "83:80"
+      - "8002:80"
